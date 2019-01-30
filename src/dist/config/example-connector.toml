@@ -96,7 +96,8 @@
   # the Couchbase document.
   # true means the ES document will be identical to the Couchbase document,
   # with the possible addition of the metadata field.
-  documentContentAtTopLevel = false
+  # IMPORTANT: set to true if custom routing required
+  documentContentAtTopLevel = true
 
   # false means ignore Couchbase counter documents.
   # true means replicate them as Object nodes like {"value":<counter>}
@@ -148,7 +149,7 @@
   # Regex just for example. Matches prefixes "airport_", "seaport_", etc.
   regex = '.*port_.*'
   index = 'airports'
-  # custom routing is attached to doc ID, example: mydocid-routing-parentdocid, routing is 'routing-' here
+  # custom routing is attached to couchbase doc ID, example: mydocid-routing-routedocid, routing is 'routing-' here
   routing = 'routing-'
 
 [[elasticsearch.type]]

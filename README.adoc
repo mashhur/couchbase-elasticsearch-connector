@@ -1,6 +1,9 @@
 = Couchbase Elasticsearch Connector
 
-https://docs.couchbase.com/elasticsearch-connector/4.0/release-notes.html[*Download*]
+This repository forked from https://github.com/couchbase/couchbase-elasticsearch-connector[*official couchbase-elasticsearch-connector*]
+and implemented custom routing. If your case requires *custom routing* or you want *parent-child* ES index structure or you are using *join* ES type, you are on right track.
+
+https://drive.google.com/open?id=1zve3k6pQmKoL_cLNGw1f44uIt1fuivvx[*Download*]
 | https://docs.couchbase.com/elasticsearch-connector/4.0/index.html[*Documentation*]
 | https://issues.couchbase.com/projects/CBES[*Issues*]
 | https://forums.couchbase.com/c/elasticsearch-connector[*Discussion*]
